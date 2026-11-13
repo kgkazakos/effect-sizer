@@ -7,7 +7,7 @@ Requires: pip install 'effect-sizer[llm]'
 Backends:
   openai    → openai/gpt-4o-mini
   anthropic → anthropic/claude-haiku-4-5-20251001
-  gemini    → gemini/gemini-2.0-flash
+  gemini    → gemini/gemini-3.6-flash
 
 Usage:
     from effect_sizer.llm import enrich
@@ -24,7 +24,7 @@ if TYPE_CHECKING:
 _MODELS: dict = {
     "openai": "openai/gpt-4o-mini",
     "anthropic": "anthropic/claude-haiku-4-5-20251001",
-    "gemini": "gemini/gemini-2.0-flash",
+    "gemini": "gemini/gemini-3.6-flash",
 }
 
 
